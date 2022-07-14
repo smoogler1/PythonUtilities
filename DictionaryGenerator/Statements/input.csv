@@ -1,0 +1,50 @@
+IScreenStatements::Initial;Witaj, mi³o Ciê widzieæ! Klucz Twojego Paczkomatu %s to %s.
+IScreenStatements::PleaseWait;Proszê czekaæ...
+IScreenStatements::CheckingItForYou;Sprawdzamy to dla Ciebie...
+IScreenStatements::BoxOpen;To ju¿! Drzwiczki stoj¹ przed Tob¹ otworem.
+IScreenStatements::BoxOpen_LeavePackToDelivery_Long;To ju¿! Drzwiczki stoj¹ przed Tob¹ otworem, pozostaw paczkê w skrytce, by j¹ nadaæ.
+IScreenStatements::BoxOpen_LeavePackToDelivery_Short;Drzwiczki stoj¹ przed Tob¹ otworem, zostaw paczkê w skrytce, by j¹ nadaæ.
+IScreenStatements::BoxClose;Misja prawie zakoñczona, zamknij skrytkê i gotowe!
+IScreenStatements::PackLocation_Left;Paczka jest po Twojej lewej stronie! <-
+IScreenStatements::PackLocation_Center;Paczka jest tu¿ przed Tob¹!
+IScreenStatements::PackLocation_Right;Paczka jest po Twojej prawej stronie! ->
+IScreenStatements::BoxLocation_Left;Skrytka jest po Twojej lewej stronie! <-\nW³ó¿ paczkê do skrytki,\na nastêpnie zamknij drzwi.
+IScreenStatements::BoxLocation_Center;Skrytka jest tu¿ przed Tob¹!\nW³ó¿ paczkê do skrytki,\na nastêpnie zamknij drzwi.
+IScreenStatements::BoxLocation_Right;Skrytka jest po Twojej prawej stronie! ->\nW³ó¿ paczkê do skrytki,\na nastêpnie zamknij drzwi.
+IScreenStatements::DeliveryBoxLocation_Left;Otwarta skrytka:\nstrona lewa\nkolumna %d, rz¹d %d\nW³ó¿ paczkê\n i zamknij skrytkê.
+IScreenStatements::DeliveryBoxLocation_Center;Otwarta skrytka:\nprzed Tob¹\nkolumna %d, rz¹d %d\nW³ó¿ paczkê\n i zamknij skrytkê.
+IScreenStatements::DeliveryBoxLocation_Right;Otwarta skrytka:\nstrona prawa\nkolumna %d, rz¹d %d\nW³ó¿ paczkê\n i zamknij skrytkê.
+IScreenStatements::DeliveryBoxLocation_RowOnly_Left;Otwarta skrytka:\nstrona lewa\nrz¹d %d\nW³ó¿ paczkê\n i zamknij skrytkê.
+IScreenStatements::DeliveryBoxLocation_RowOnly_Center;Otwarta skrytka:\nprzed Tob¹\nrz¹d %d\nW³ó¿ paczkê\n i zamknij skrytkê.
+IScreenStatements::DeliveryBoxLocation_RowOnly_Right;Otwarta skrytka:\nstrona prawa\nrz¹d %d\nW³ó¿ paczkê\n i zamknij skrytkê.
+IScreenStatements::ScanQRCode;Zeskanuj kod QR lub etykietê, a bêdê wiedzia³ co z ni¹ zrobiæ.
+IScreenStatements::CollectCODPaymentApp;Jeszcze jeden krok! Aby odebraæ przesy³kê op³aæ j¹ w aplikacji InPost.
+IScreenStatements::CollectCODPaymentAppOrLink;Jeszcze jeden krok! Aby odebraæ przesy³kê, op³aæ j¹ w aplikacji InPost lub przy pomocy linków, które znajdziesz w mailu.
+IScreenStatements::Reopen_ClaimedScanPackCode;Czy masz uwagi do paczki? -> Zeskanuj kod z etykiety paczki.
+IScreenStatements::Reopen_ScanQRCode;Chcesz otworzyæ ponownie skrytkê? -> Zeskanuj kod QR.
+IScreenStatements::Reopen_ScanBarcode;Chcesz otworzyæ ponownie skrytkê? -> Zeskanuj kod\nz etykiety paczki.
+IScreenStatements::Reopen_OtherContactWithUs;Masz inny problem? -> Skontaktuj siê z nami %s.
+IScreenStatements::DeliveryCancel_BoxProblem;Masz problem z umieszczeniem paczki?
+IScreenStatements::DeliveryCancel_ScanQRCodeAndCloseBox;Zeskanuj ponownie kod QR, aby zrezygnowaæ z nadania i zamknij skrytkê.
+IScreenStatements::DeliveryCancel_ScanQRCode;Jeœli chcesz zrezygnowaæ\nz nadania zeskanuj kod QR.
+IScreenStatements::DeliveryCancel_ScanBarcode;Jeœli chcesz zrezygnowaæ\nz nadania zeskanuj kod\nz etykiety paczki.
+IScreenStatements::DeliveryCancel_CloseBox;Zamknij skrytkê aby anulowaæ proces nadania.
+IScreenStatements::DeliveryCancel_Done;Anulowa³eœ nadanie paczki.
+IScreenStatements::Delivery_ChangeBoxSize;Gabaryt mo¿esz zmieniæ w aplikacji InPost.
+IScreenStatements::Delivery_Success;Gratulacje!\nUda³o Ci siê nadaæ paczkê.
+IScreenStatements::ExceptClaimed_LeavePackInBox;Masz uwagi do paczki? Pozostaw j¹, proszê\nw skrytce.
+IScreenStatements::ExceptAlreadyReceived;Paczkê, któr¹ chcesz odebraæ odda³em ju¿\nw Twoje rêce.
+IScreenStatements::ExceptWrongCodeOrMachine;Coœ nie halo... Upewnij siê, ¿e jesteœ pod odpowiednim Paczkomatem lub zeskanuj poprawny kod odbioru.
+IScreenStatements::ExceptWrongCode;Coœ nie halo... Upewnij siê, ¿e skanujesz poprawny kod nadania lub kod zwrotu.
+IScreenStatements::ExceptMultiCompartment;Dziœ czeka na Ciebie wiêcej paczek %d. Odbierz je wszystkie!
+IScreenStatements::ExceptLockerFull_CrowdAllBoxesOccupied;Có¿ za t³ok! Tym razem wszystkie skrytki s¹ zajête.
+IScreenStatements::ExceptLockerFull_CrowdTryAnotherOrTryLater;Có¿ za t³ok! Tym razem wszystkie skrytki s¹ zajête. Spróbuj póŸniej lub odwiedŸ inny Paczkomat.
+IScreenStatements::ExceptLockerFull_CheckAnotherLockerLocation;SprawdŸ lokalizacjê najbli¿szych Paczkomatów w aplikacji InPost Mobile lub na stronie %s
+IScreenStatements::ExceptBox_OpenFail;Skrytka nie chce siê otworzyæ? Prosimy\no kontakt z infolini¹ pod numerem %s.
+IScreenStatements::ExceptBox_CloseFail;Skrytka nie chce siê zamkn¹æ? Spróbuj ponownie lub skontaktuj siê z infolini¹ pod numerem %s.
+IScreenStatements::ExceptLockerStatus_CannotAcceptPack;Przepraszam, nie mogê teraz przyj¹æ Twojej paczki. Spróbuj ponownie póŸniej lub skontaktuj siê z infolini¹ pod numerem %s.
+IScreenStatements::ExceptLockerStatus_Blocked;Paczkomat jest tymczasowo niedostêpny.\nKlucz Twojego Paczkomatu %s to %s.
+IScreenStatements::Claim_Registered;Dziêkujemy,\nzarejestrowaliœmy zwrot\npaczki.
+IScreenStatements::ClaimBoxLocation_Left;Skrytka jest po Twojej lewej stronie! <-\nW³ó¿ zwracan¹ paczkê do skrytki, a nastêpnie zamknij drzwi.
+IScreenStatements::ClaimBoxLocation_Right;Skrytka jest po Twojej prawej stronie! ->\nW³ó¿ zwracan¹ paczkê do skrytki, a nastêpnie zamknij drzwi.
+IScreenStatements::ClaimBoxLocation_Center;Skrytka jest tu¿ przed Tob¹!\nW³ó¿ zwracan¹ paczkê do skrytki, a nastêpnie zamknij drzwi.

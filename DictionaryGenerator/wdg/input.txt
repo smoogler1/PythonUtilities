@@ -1,0 +1,63 @@
+    MinProcNo,
+    TcpIpWdtId,
+    EthMacWdtId,														// Ethernet MAC data reception task (vEmacRxTask)
+    EthSwitchWdtId,														// Ethernet switch physical connection control task (SwitchConnectionTask)
+    UsbDrvWdtId,														// USB driver control task (vUsbCtrlTask)
+    USBModemWdtId,														// USB modem driver control task (vModemTask)
+    ModemCtrlWdtId,														// Cellular modem control task (vCellNetifTask)
+    ModemDrvWdtId,														// Cellular modem driver control task (ECM, NCM, DirectIP, PPP)
+    WebServerWdtId,														// HTTP server for GUI (vWEBServer)
+    WebPage1WdtId,														// HTTP web page handler#1 (ProceedHttp["WEBPage1"])
+    WebPage2WdtId,														// HTTP web page handler#2 (ProceedHttp["WEBPage2"])
+    WebPage3WdtId,														// HTTP web page handler#3 (ProceedHttp["WEBPage3"])
+    WebPage4WdtId,														// HTTP web page handler#4 (ProceedHttp["WEBPage4"])
+    MbusServerWdtId,													// MODBUS on TCP/IP server
+    MbusCon1WdtId,														// MODBUS on TCP/IP connection#1
+    MbusCon2WdtId,														// MODBUS on TCP/IP connection#2
+    MbusCon3WdtId,														// MODBUS on TCP/IP connection#3
+    MbusCon4WdtId,														// MODBUS on TCP/IP connection#4
+    ModbusProtoWdtId,													// MODBUS protocol services
+    MbusGateSrv1WdtId,													// MODBUS on TCP/IP gateway server#1
+    MbusGateSrv2WdtId,													// MODBUS on TCP/IP gateway server#2
+    MbusGate1WdtId,														// MODBUS on TCP/IP gateway#1 services
+    MbusGate2WdtId,														// MODBUS on TCP/IP gateway#2 services
+    MbusSerial1WdtId,													// MODBUS serial#1 services
+    MbusSerial2WdtId,													// MODBUS serial#2 services
+    IoModuleWdtId,														// External I/O module services
+    IoControllerWdtId,													// I/O signal and alarm services
+    WfoWdtId,															// WAN fail over services
+    IKEWdtId,															// IPsec/IKE services
+    GpsWdtId,															// GPS services
+    AtTCPSrvMaxWdtId,													// TCP/IP AT Console server
+    AtTCPConMaxWdtId,													// TCP/IP AT Console connection services
+    AtTCPSrvLimWdtId,													// TCP/IP AT Console server
+    AtTCPConLimWdtId,													// TCP/IP AT Console connection services
+    AtTCPSrvLogWdtId,													// TCP/IP AT Console server
+    AtTCPConLogWdtId,													// TCP/IP AT Console connection services
+    AtTCPSrvDiagWdtId,													// TCP/IP AT Console server
+    AtTCPConDiagWdtId,													// TCP/IP AT Console connection services
+    AtTCPSrvNmea1WdtId,													// TCP/IP AT Console server
+    AtTCPConNmea1WdtId,													// TCP/IP AT Console connection services
+    AtTCPSrvNmea2WdtId,													// TCP/IP AT Console server
+    AtTCPConNmea2WdtId,													// TCP/IP AT Console connection services
+    AtTCPSrvStatusWdtId,												// TCP/IP AT Console server
+    AtTCPConStatusWdtId,												// TCP/IP AT Console connection services
+    WdtHttpSrv,
+    WdtHttpStart,
+    WdtHttpEnd,
+    WdtSyslogTask,
+    WdtSyslogMaint,
+    WdtSclAutoUpdate,
+    WdtLockHalLighting,
+    WdtLockHalScanLeft,
+    WdtLockHalScanRight,
+    WdtBoxOpenTask,
+    WdtBoxOpenMaint,
+    WdtTransSynchTask,
+    WdtTransMaintTask,
+    WdtMachineStateTask,
+    WdtSensorsTask,
+    WdtScreenTask,
+    WdtDeviceManagerTask,
+    WdtSzopDbReconstrTask,
+    MaxProcNo,
